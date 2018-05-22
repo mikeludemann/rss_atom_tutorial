@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>
+		http://example.org
+	</id>
+	<!--
+	<id>
+	urn:uuid:12a34b56-c789-01e2-f34g-5678901h2ij3
+	</id>
+	-->
+	<title>
+		Example Feed
+	</title>
+	<link href="http://example.org/" />
+	<updated>
+		20018-12-31T00:00:00Z
+	</updated>
+	<author>
+		<name>
+			Test Tester
+		</name>
+		<email>
+			test.tester@example.com
+		</email>
+		<uri>
+			http://example.com/~test.tester
+		</uri>
+	</author>
+	<category term="development" />
+	<contributor>
+		<name>
+			Tester Tester
+		</name>
+	</contributor>
+	<generator uri="/index.php" version="1.0">
+		Example Toolkit
+	</generator>
+	<icon>
+		/src/images/icon.jpg
+	</icon>
+	<logo>
+		/src/images/logo.jpg
+	</logo>
+	<rights>
+		© 2018 Test Tester
+	</rights>
+	<subtitle>
+		Example Tests
+	</subtitle>
+	<entry>
+		<title>
+			Atom Tutorial Example
+		</title>
+		<link href="http://example.org/2018/12/31/feed" />
+		<id>
+			urn:uuid:23k45l67-m890-12n3-o45p-6789012q3rs4
+		</id>
+		<updated>
+			2003-12-31T23:59:59Z
+		</updated>
+		<summary>
+			Some text.
+		</summary>
+		<author>
+			<name>
+				Test Tester
+			</name>
+		</author>
+		<content> <!-- Type with "text" or "html" or "xhtml" or "+xml" or "/xml" // src with "URI" -->
+			Here is the complete tutorial
+		</content>
+		<link rel="self" href="/tests/1234" /> <!-- "rel" with ["alternate" or "enclosure" or "related" or "self" or "via"] or "type" or "hreflang" or "title" or "length" -->
+		<category term="technology" /> <!-- "term" or "scheme" or "label" -->
+		<contributor>
+			<name>
+				Tester Tester
+			</name>
+		</contributor>
+		<published>
+			2019-01-01T00:00:00-00:00
+		</published>
+		<rights type="html">
+			&amp;copy; 2018 Test Tester
+		</rights>
+		<source>
+			<id>
+				http://example.org/
+			</id>
+			<title>
+				Example, Inc.
+			</title>
+			<updated>
+				2018-12-31T20:00:00Z
+			</updated>
+		</source>
+	</entry>
+</feed>

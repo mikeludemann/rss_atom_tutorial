@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>
+			Example Feed
+		</title>
+		<link>
+			http://example.org/
+		</link>
+		<description>
+			Tutorial of RSS feeds
+		</description>
+		<language>
+			en-us
+		</language>
+		<category>
+			Web development
+		</category>
+		<copyright>
+			Test Tester
+		</copyright>
+		<pubDate>
+			Mon, 31 Dez 2018 23:59:59
+		</pubDate>
+		<comments>
+			http://example.org/comments
+		</comments>
+		<enclosure url="http://example.org/rss.mp3" length="5000" type="audio/mpeg" /> <!-- "video/mpeg" -->
+		<image>
+			<url>
+				/src/images/icon.svg
+			</url>
+			<title>
+				Test
+			</title>
+			<link>
+				http://example.org/src/images/icon.svg
+			</link>
+		</image>
+		<item>
+			<title>
+				Testing
+			</title>
+			<description>
+				Tests of feed
+			</description>
+			<link>
+				http://example.org/feeds/2018/21/31/test.html
+			</link>
+			<author>
+				Test Tester
+			</author>
+			<guid>
+				guid:12a34b56-c789-01e2-f34g-5678901h2ij3
+			</guid>
+			<pubDate>
+				Mon, 31 Dez 2018 12:00:00
+			</pubDate>
+		</item>
+	</channel>
+</rss>
